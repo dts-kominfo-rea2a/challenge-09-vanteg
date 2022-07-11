@@ -1,4 +1,38 @@
 .App {
+  display: block;
   text-align: center;
+padding: 0;
+  background-color: rgb(220, 237, 251);
+}
+
+.anjay{
+  font-size: 200px;
+}
+
+.gambar{
   display: flex;
+  border-radius: 50%;
+  width: 10em;
+}
+
+.felx{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px auto;
+  background-color: rgb(222, 209, 143);
+  border-radius: 20px;
+  width: 80vh;
+  padding: 20px;
+}
+
+hr{
+  border-top: 4px dotted red;
+  width: 60%;
+  justify-content: center;
+  color: red;
+}
+
+h1{
+  margin: 0;
 }
