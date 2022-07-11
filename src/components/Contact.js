@@ -5,24 +5,18 @@ import "../App.css";
 
 const Contact = (props) => {
   return (
-    <div>
-      {props.data.map((value) => {
-        return (
-          <>
-            <div className="felx">
-              <div>
-                <img src={value.photo} className="gambar"></img>
-              </div>
-              <div>
-                <h3>{value.name}</h3>
-                <p>{value.phone}</p>
-                <p>{value.email}</p>
-              </div>
-            </div>
-          </>
-        );
-      })}
-    </div>
+    <>
+      <div className="felx">
+        <div>
+          <img src={props.data.photo} className="gambar"></img>
+        </div>
+        <div>
+          <h3>{props.data.name}</h3>
+          <p>{props.data.phone}</p>
+          <p>{props.data.email}</p>
+        </div>
+      </div>
+    </>
   );
 };
 

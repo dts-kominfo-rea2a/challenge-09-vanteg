@@ -12,7 +12,10 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Contact data={contacts} />
+
+      {contacts.map((value) => {
+        return <Contact data={value} />;
+      })}
     </div>
   );
 };
