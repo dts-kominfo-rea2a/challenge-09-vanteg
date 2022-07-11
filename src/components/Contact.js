@@ -5,7 +5,7 @@ import "../App.css";
 
 const Contact = (props) => {
   {
-    props.data.map((value) => {
+    props.data?.map((value) => {
       return (
         <>
           <div className="felx">
